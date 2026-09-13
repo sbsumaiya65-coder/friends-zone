@@ -27,13 +27,10 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Fix and Create Android files
-        run: flutter create . --platforms=android --org com.example
-
       - name: Build APK
-        run: flutter build apk --debug
+        run: flutter build apk --debug --target-platform android-arm,android-arm64,android-x64
 
-      - name: upload APK
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-debug
