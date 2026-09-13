@@ -23,14 +23,14 @@ dependencies:
   # ভয়েস নোট বা অادیো প্লে করার জন্য
 
   # ফায়ারবেস ইন্টিগ্রেশনের জন্য (ভবিষ্যত ব্যাকএন্ডের প্রস্তুতি)
-  firebase_core: ^2.27.0
-  firebase_auth: ^4.17.8
-  cloud_firestore: ^4.15.8
+  firebase_core: ^4.14.0
+  firebase_auth: ^6.6.1
+  cloud_firestore: ^6.9.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
