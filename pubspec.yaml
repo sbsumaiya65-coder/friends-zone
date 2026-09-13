@@ -1,0 +1,41 @@
+name: friends_zone
+description: "A new Flutter project for proximity social discovery and voice lounge."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # লোকাল স্টেট ও কয়েন/রেফার সেভ করার জন্য
+  shared_preferences: ^2.2.2
+
+  # আইকন ও ইউআই ডিজাইনের জন্য
+  cupertino_icons: ^1.0.6
+
+  # ছবি বা ফাইল সিলেক্ট করার জন্য (ফাইল আদান-প্রদান ফিচারের জন্য)
+  image_picker: ^1.0.7
+
+  # ভয়েস নোট বা অادیো প্লে করার জন্য
+  audioplayers: ^6.0.0
+
+  # ফায়ারবেস ইন্টিগ্রেশনের জন্য (ভবিষ্যত ব্যাকএন্ডের প্রস্তুতি)
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # অ্যাপের লোগো বা অ্যাসেট ইমেজ রেজিস্টার করার অংশ
+  assets:
+    - assets/images/friendszone.jpg
